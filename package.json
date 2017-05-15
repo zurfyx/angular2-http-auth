@@ -32,6 +32,7 @@
     "@angular/compiler-cli": "^4.1.0",
     "@angular/core": "^4.1.0",
     "@angular/platform-server": "^4.1.0",
+    "@angular/http": "^4.1.0",
     "typings": "^1.0.4"
   },
   "devDependencies": {
@@ -43,7 +44,7 @@
     "rxjs": "^5.1.0",
     "tslint": "^4.3.1",
     "typescript": "~2.1.0",
-    "zone.js": "0.8.4"
+    "zone.js": "0.8.9"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

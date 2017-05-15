@@ -14,6 +14,13 @@ npm install angular2-http-auth
 
 *TODO.*
 
+## TODO
+
+* <strike>Default headers</strike>
+* Default search params
+* Default body
+* withCredentials (cookies)
+
 ## License
 
 MIT © [Gerard Rovira Sánchez](//zurfyx.com)
