@@ -20,5 +20,5 @@ export class AuthConfig {
 }
 
 export class AuthConfigArgs {
-  headers: {[name: string]: () => string | string};
+  headers: {[name: string]: (() => string) | string};
 }

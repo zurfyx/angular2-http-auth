@@ -5,7 +5,7 @@ import {
   Headers,
   Response,
 } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
+import { Observable } from 'rxjs/Observable';
 
 import { AuthConfig } from './auth-config';
 
@@ -48,7 +48,7 @@ export class AuthHttp {
   private request(
     httpMethod: (url: string, body?: Object, options?: RequestOptionsArgs) => Observable<Response>,
     { url, body, options = {} }: { url: string, body?: Object, options?: RequestOptionsArgs }
-  ) : Observable<Response> {
+  ): Observable<Response> {
     const headers: Headers = this.requestHeaders(options);
     const newOptions: RequestOptionsArgs = { ...options, headers };
     const newArgs = body ? [url, body, newOptions] : [url, newOptions];
